@@ -18,7 +18,6 @@ export default function Footer() {
                     <div>
                         <Link className="block" href={"/"}>Home</Link>
                         <Link className="block" href={"/projects"}>projects</Link>
-                        <Link className="block" href={"/blogs"}>Blogs</Link>
                         <Link className="block" href={"/stack"}>Stack</Link>
                         <Link className="block" href={"/contact"}>Contact</Link>
                     </div>
