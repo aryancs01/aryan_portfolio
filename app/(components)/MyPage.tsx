@@ -23,14 +23,14 @@ export default function MyPage() {
                     alt="My Image"
                 />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col ">
                 <h4 className="text-2xl font-semibold md:text-left text-center">Aryan Saxena</h4>
                 <h4 className="text-xl text-slate-200 animate-slideLeft">FullStack Developer</h4>
             </div>
         </div>
         <div className="mt-6 md:p-0 p-2">
-            <div className="flex gap-2 md:text-2xl text-lg tracking-tighter">
-                <h4 className="text-gray-400 ">I build</h4>
+            <div className="flex gap-2 md:text-2xl md:flex-row flex-col text-xl  tracking-tighter">
+                <h4 className="text-gray-400  ">I build</h4>
                 <h4 className="animate-slideDown md:underline underline-offset-4 decoration-wavy decoration-red-300">Full-Stack Web Applications</h4>
             </div>
             <div className="mt-2">
