@@ -16,44 +16,44 @@ export default function Contact() {
         <div className="mt-16 md:p-0 p-2">
             <h4 className="text-4xl">What I <span className="text-slate-400">use</span></h4>
         </div>
-        <div className="flex md:flex-row flex-col justify-around mt-3">
+        <div className="flex justify-around mt-3 md:pl-0 pl-2">
             <div className="flex flex-col gap-3">
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <NextIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <NextIcon size="xsm"/>
                     <h4>Next.js</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <TypescriptIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <TypescriptIcon size="xsm"/>
                     <h4>Typescript</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <Javascript size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <Javascript size="xsm"/>
                     <h4>Javascript</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <PrismaIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <PrismaIcon size="xsm"/>
                     <h4>Prisma</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <ReactIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <ReactIcon size="xsm"/>
                     <h4>React.js</h4>
                 </div>
             </div>
             <div className="flex flex-col  gap-3">
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <Express size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <Express size="xsm"/>
                     <h4>Express.js</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <NodejsIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <NodejsIcon size="xsm"/>
                     <h4>Nodejs</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <TailwindIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <TailwindIcon size="xsm"/>
                     <h4>TailwindCSS</h4>
                 </div>
-                <div className="flex md:text-2xl text-lg gap-2 items-center">
-                    <VsIcon size="sm"/>
+                <div className="flex md:text-2xl text-md gap-2 items-center">
+                    <VsIcon size="xsm"/>
                     <h4>VS Code</h4>
                 </div>
             </div>
