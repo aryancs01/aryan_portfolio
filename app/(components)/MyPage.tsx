@@ -34,10 +34,10 @@ export default function MyPage() {
                 <h4 className="animate-slideDown md:underline underline-offset-4 decoration-wavy decoration-red-300">Full-Stack Web Applications</h4>
             </div>
             <div className="mt-2">
-                <h4 className="md:text-xl text-lg opacity-95 text-transparent bg-gradient-to-r from-gray-200 to-gray-500 bg-clip-text">Hey, I'm Aryan Saxena, a full-stack web developer from Jaipur, India. I'm currently pursuing my Bachelor of Technology in Computer Science.</h4>
+                <h4 className="md:text-xl text-lg opacity-95 text-transparent bg-gradient-to-r from-gray-200 to-gray-500 bg-clip-text">Hey, I&apos;m Aryan Saxena, a full-stack web developer from Jaipur, India. I&apos;m currently pursuing my Bachelor of Technology in Computer Science.</h4>
             </div>
             <div className="mt-2 hidden md:block">
-                <h4 className="md:text-xl text-lg opacity-95 text-transparent bg-gradient-to-r from-gray-200 to-gray-500 bg-clip-text">I enjoy learning new things and have made it a habit to explore something new every month. On this website, you'll find articles on my projects and notes on the things I've learned and insights into my experience with technologies like <span className="underline underline-offset-4 decoration-wavy decoration-red-500 font-bold text-white">Next.js</span> . I love building fast and scalable web applications, and  Next.js has been a key part of my development stack. Besides coding, I enjoy listening to hip-hop.</h4>
+                <h4 className="md:text-xl text-lg opacity-95 text-transparent bg-gradient-to-r from-gray-200 to-gray-500 bg-clip-text">I enjoy learning new things and have made it a habit to explore something new every month. On this website, you&apos;ll find articles on my projects and notes on the things I&apos;ve learned and insights into my experience with technologies like <span className="underline underline-offset-4 decoration-wavy decoration-red-500 font-bold text-white">Next.js</span> . I love building fast and scalable web applications, and  Next.js has been a key part of my development stack. Besides coding, I enjoy listening to hip-hop.</h4>
             </div>
         </div>
         <div className="mt-4 flex gap-3 items-center">
