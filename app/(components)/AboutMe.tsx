@@ -16,7 +16,7 @@ export default function AboutMe() {
             <div className={`${playwrite_ar.className}`}>
                 <h4 className="text-3xl font-bold mb-3 md:mt-0 mt-3">About Me</h4>
             </div>
-            <div className={`${chakra.className} mt-5 text-xl md:tracking-wide tracking-tighter md:w-[600px] w-80`}>
+            <div className={`${chakra.className} mt-5 text-xl md:tracking-wide tracking-tighter md:w-[600px] w-80 md:pr-0 pr-3`}>
                 <p>Full-stack developer with expertise in Next.js, Backend development, and Databases. Built Drawnect, a
                     real-time collaborative canvas app, and developed a digital payment system inspired by Paytm, featuring atomic
                     transactions, webhook services, and security mechanisms. Passionate about crafting scalable and efficient solutions
