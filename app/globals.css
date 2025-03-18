@@ -6,19 +6,78 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1d1d1d;
+  --foreground: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+@font-face {
+  font-family: "Regular";
+  src: local('ChakraPetch-Regular'),
+  url('../public/ChakraPetch-Regular.ttf') format("truetype")
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 22%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin: 0;
+    padding: 12px;
+  }
+}
+
+#marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  margin-top: 30px;
+}
+
+#marquee-text {
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(52, 214, 52);
+  font-weight: bold;
+  position: absolute;
+  white-space: nowrap;
+  left: 100%; 
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;;
+  }
+  100% {
+    left: -100%;;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  @keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -200%; 
+    }
+  }
 }
