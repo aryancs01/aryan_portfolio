@@ -33,7 +33,7 @@ export default function Home() {
       <Skills />
       <Contact />
       <div id="marquee-container">
-        <span id="marquee-text">Open to opportunities! Let's build something amazing together</span>
+        <span id="marquee-text">Open to opportunities! Let&apos;s build something amazing together</span>
       </div>
       <div className="mt-28">
         <Control/>

@@ -5,6 +5,8 @@ import TrippleLines from "./(icons)/TrippleLines";
 import Plane from "./(icons)/Plane";
 import Music from "./(icons)/Music";
 import Button from "./(ui)/Button";
+import Image from "next/image";
+import star from "@/public/star.webp"
 const chakra = Chakra_Petch({
     subsets: ["latin"],
     weight: "400",
@@ -19,7 +21,7 @@ const playwrite_ar = Playwrite_DE_Grund({
 export default function MyPage() {
     return <div id="home" className="mt-10">
         <div className="flex gap-3 items-center md:justify-start justify-center">
-            <img src="./star.webp" alt="" className="w-5 h-5" />
+            <Image src={star} alt="" className="w-5 h-5" />
             <h4 className={`text-3xl ${chakra.className}`}>
                 Aryan Saxena
             </h4>
@@ -38,9 +40,9 @@ export default function MyPage() {
         </div>
         <div className="mt-8">
             <div className={`,md:text-4xl text-2xl tracking-wide  ${playwrite_ar.className}`}>
-                <div className="flex items-center relative mb-6 font-extrabold">Hello there! I'm 
+                <div className="flex items-center relative mb-6 font-extrabold">Hello there! I&apos;m 
                     <div className="bg-[#7C00FE] font-extrabold px-3 py-2 -rotate-2 ml-3">Aryan Saxena</div>
-                    <div className="absolute -top-7 right-80 md:block hidden">
+                    <div className="absolute -top-7 right-90 md:block hidden">
                         <Music/>
                     </div>
                 </div>

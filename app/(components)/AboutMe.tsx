@@ -24,7 +24,7 @@ export default function AboutMe() {
                 </p>
             </div>
             <div className="mt-5 text-gray-500 text-lg">
-                <p>Currently, I'm in Jaipur, Rajasthan</p>
+                <p>Currently, I&apos;m in Jaipur, Rajasthan</p>
             </div>
         </div>
         <div className="flex justify-center">
